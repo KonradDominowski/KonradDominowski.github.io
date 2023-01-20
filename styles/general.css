@@ -1,0 +1,48 @@
+:root {
+  --primary-color: #eedc691a;
+  /* --secondary-color: #f7c560b7; */
+  --secondary-color: #ffd37cb7;
+  --tertiary-color: #d6b854;
+  --page-width: 1080px;
+  --link-color: #383838;
+}
+
+body {
+  max-width: var(--page-width);
+  margin: auto;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 1.9;
+  background-color: #ffffff;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--tertiary-color);
+}
+
+.learn-at-home {
+  width: 100%;
+  margin: auto;
+
+  transition: 0.6s;
+  opacity: 0;
+  text-align: center;
+
+  background-image: url(../images/learn-at-home-2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-bottom: 50%;
+  box-shadow: inset 0px 200px 100px -50px #ffffff;
+  border-radius: 3px;
+
+  margin-bottom: 3rem;
+}
+
+.second-line,
+.third-line {
+  transition: 0.6s ease-in;
+  opacity: 0;
+}

@@ -1,0 +1,22 @@
+.footer {
+  height: 500px;
+  margin-top: 5rem;
+  background-color: var(--primary-color);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  box-sizing: border-box;
+  padding: 1.5rem;
+  border-top: 1px solid var(--tertiary-color);
+}
+
+.logo-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.footer-logo {
+  width: 50%;
+}
