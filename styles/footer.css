@@ -1,14 +1,35 @@
 .footer {
-  margin-top: 5rem;
-  background-color: var(--primary-color);
+  background-image: linear-gradient(
+    90deg,
+    var(--primary-color) 0%,
+    rgba(0, 0, 0, 0) 40%,
+    rgba(0, 0, 0, 0) 60%,
+    var(--primary-color) 100%
+  );
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   column-gap: 5rem;
 
   box-sizing: border-box;
   padding: 1.5rem;
-  border-top: 1px solid var(--tertiary-color);
   text-transform: uppercase;
+  font-size: 0.8;
+}
+
+.footer-background:before {
+  content: "";
+  height: 1.5px;
+  background-image: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0) 0%,
+    var(--secondary-color) 40%,
+    var(--secondary-color) 60%,
+    rgba(0, 0, 0, 0) 100%
+  );
+
+  display: block;
+
+  margin-top: 5rem;
 }
 
 .logo-contact {

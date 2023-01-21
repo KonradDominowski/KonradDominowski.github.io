@@ -1,13 +1,13 @@
 window.onload = () => {
 	setTimeout(() => {
 		document.querySelector('.learn-at-home').style.opacity = 1
-	}, 250)
+	}, 500)
 	setTimeout(() => {
 		document.querySelector('.second-line').style.opacity = 1
-	}, 1000)
+	}, 1250)
 	setTimeout(() => {
 		document.querySelector('.third-line').style.opacity = 1
-	}, 1750)
+	}, 2000)
 }
 
 const sessions = document.querySelectorAll('.session')

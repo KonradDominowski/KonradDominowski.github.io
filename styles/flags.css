@@ -1,0 +1,9 @@
+.flags {
+  position: relative;
+  height: 500px;
+}
+
+.flags img {
+  position: absolute;
+  width: 400px;
+}

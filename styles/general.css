@@ -3,7 +3,7 @@
   /* --secondary-color: #f7c560b7; */
   --secondary-color: #ffd37cb7;
   --tertiary-color: #d6b854;
-  --opposite-color: #7DB1FF
+  --opposite-color: #7db1ff;
   --page-width: 1080px;
   --link-color: #383838;
 }
@@ -18,14 +18,14 @@ body {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 3rem;
   font-weight: 600;
   text-transform: uppercase;
   color: var(--tertiary-color);
 }
 
 .learn-at-home {
-  width: 100%;
+  /* width: 100%; */
   margin: auto;
 
   transition: 0.6s;
@@ -39,7 +39,7 @@ h1 {
   box-shadow: inset 0px 200px 100px -50px #ffffff;
   border-radius: 3px;
 
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem; */
 }
 
 .second-line,
