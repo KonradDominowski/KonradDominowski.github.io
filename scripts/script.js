@@ -1,3 +1,6 @@
+const sessions = document.querySelectorAll('.session')
+const sections = document.querySelectorAll('section')
+
 window.onload = () => {
 	setTimeout(() => {
 		document.querySelector('.learn-at-home').style.opacity = 1
@@ -10,7 +13,32 @@ window.onload = () => {
 	}, 2000)
 }
 
-const sessions = document.querySelectorAll('.session')
+// ============================
+// Sections revealing on scroll
+
+const revealSection = (entries, observer) => {
+	const [entry] = entries
+
+	if (!entry.isIntersecting) return
+	console.log(entry);
+	entry.target.classList.remove('section-hidden')
+	observer.unobserve(entry.target)
+}
+
+const sectionObserver = new IntersectionObserver(
+	revealSection, {
+	root: null,
+	threshold: 0.2
+}
+)
+
+sections.forEach(s => {
+	s.classList.add('section-hidden')
+	sectionObserver.observe(s)
+})
+
+// ========================
+// Session details on hover
 
 sessions.forEach(session => {
 	session.addEventListener('mouseenter', () => {

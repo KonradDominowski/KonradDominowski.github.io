@@ -32,6 +32,12 @@
     rgb(0 0 0 / 0) 70%,
     rgb(0 0 0 / 0)
   );
+  mask-image: radial-gradient(
+    rgb(0 0 0 / 1) 40%,
+    rgb(0 0 0 / 0.3) 60%,
+    rgb(0 0 0 / 0) 70%,
+    rgb(0 0 0 / 0)
+  );
 }
 
 .sessions {

@@ -47,3 +47,12 @@ h1 {
   transition: 0.6s ease-in;
   opacity: 0;
 }
+
+section {
+  transition: 1s;
+}
+
+.section-hidden {
+  transform: translate(0, 5rem);
+  opacity: 0;
+}
