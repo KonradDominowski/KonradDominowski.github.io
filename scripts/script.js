@@ -1,17 +1,29 @@
 const sessions = document.querySelectorAll('.session')
 const sections = document.querySelectorAll('section')
+const btnHeroScroll = document.querySelector('.hero-scroll')
 
 window.onload = () => {
 	setTimeout(() => {
-		document.querySelector('.learn-at-home').style.opacity = 1
+		document.querySelector('.first-line').style.opacity = 1
 	}, 500)
 	setTimeout(() => {
 		document.querySelector('.second-line').style.opacity = 1
-	}, 1250)
-	setTimeout(() => {
-		document.querySelector('.third-line').style.opacity = 1
-	}, 2000)
+	}, 1500)
 }
+
+
+// ============================
+// Scroll past the hero section
+
+btnHeroScroll.addEventListener('click', e => {
+	e.preventDefault()
+
+	document.querySelector('.our-courses').scrollIntoView({
+		behavior: 'smooth',
+		block: 'start'
+	})
+})
+
 
 // ============================
 // Sections revealing on scroll
@@ -20,22 +32,22 @@ const revealSection = (entries, observer) => {
 	const [entry] = entries
 
 	if (!entry.isIntersecting) return
-	console.log(entry);
-	entry.target.classList.remove('section-hidden')
+	entry.target.firstElementChild.classList.remove('section-hidden')
 	observer.unobserve(entry.target)
 }
 
 const sectionObserver = new IntersectionObserver(
 	revealSection, {
 	root: null,
-	threshold: 0.2
+	threshold: 0.1
 }
 )
 
 sections.forEach(s => {
-	s.classList.add('section-hidden')
+	s.firstElementChild.classList.add('section-hidden')
 	sectionObserver.observe(s)
 })
+
 
 // ========================
 // Session details on hover
