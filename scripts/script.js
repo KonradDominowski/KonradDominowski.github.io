@@ -1,6 +1,8 @@
 const sessions = document.querySelectorAll('.session')
 const sections = document.querySelectorAll('section')
 const btnHeroScroll = document.querySelector('.hero-scroll')
+const nav = document.querySelector('nav')
+
 
 window.onload = () => {
 	setTimeout(() => {
@@ -11,6 +13,18 @@ window.onload = () => {
 	}, 1500)
 }
 
+// ============================
+// Navigation buttons
+
+nav.addEventListener('click', e => {
+	if (!e.target.classList.contains('nav-link')) return
+
+	e.preventDefault()
+	let scrollTarget = e.target.dataset.to
+
+	document.querySelector(`#${scrollTarget}`).scrollIntoView({ behavior: 'smooth' })
+
+})
 
 // ============================
 // Scroll past the hero section
