@@ -6,6 +6,7 @@
   --opposite-color: #7db1ff;
   --page-width: 1080px;
   --link-color: #383838;
+  --nav-height: 4rem;
 }
 
 body {
@@ -24,31 +25,7 @@ h1 {
   color: var(--tertiary-color);
 }
 
-.learn-at-home {
-  /* width: 100%; */
-  margin: auto;
-
-  transition: 0.6s;
-  opacity: 0;
-  text-align: center;
-
-  background-image: url(../images/learn-at-home-2.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  padding-bottom: 50%;
-  box-shadow: inset 0px 200px 100px -50px #ffffff;
-  border-radius: 3px;
-
-  /* margin-bottom: 3rem; */
-}
-
-.second-line,
-.third-line {
-  transition: 0.6s ease-in;
-  opacity: 0;
-}
-
-section {
+section > div {
   transition: 1s;
 }
 

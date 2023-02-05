@@ -50,6 +50,7 @@
 }
 
 .session {
+  background-color: white;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -113,9 +114,9 @@
 .session-link {
   transition: 0.2s;
   text-decoration: none;
-  font-size: 1.2em;
+  font-size: 1em;
   color: var(--link-color);
-  padding: 0.75rem 1.2rem 0.75rem 1.2rem;
+  padding: 0.75rem 1.4rem 0.75rem 1.4rem;
   border-radius: 30px;
   background-color: var(--secondary-color);
 }
