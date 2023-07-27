@@ -1,6 +1,7 @@
 import blindMan from './../media/images/blindMan.jpeg'
 import styles from './Courses.module.css'
 import oneToOne from './../media/images/oneToOne.jpg'
+import oneToOne2 from './../media/images/oneToOne2.jpg'
 import oneToTwo from './../media/images/oneToTwo.jpeg'
 import peerToPeer from './../media/images/peerToPeer.jpeg'
 import Course from './Course'
@@ -10,7 +11,7 @@ const courses = [
 		title: 'One To One',
 		description: 'Students will have their individual level assessed and then classes are customized to fit their specific requirements.',
 		img: {
-			src: oneToOne,
+			src: oneToOne2,
 			alt: 'Teacher teaching a student'
 		}
 	},
