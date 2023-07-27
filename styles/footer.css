@@ -81,3 +81,8 @@
   padding: 0;
   list-style-type: none;
 }
+
+.footer-course {
+  text-decoration: none;
+  color: black;
+}
