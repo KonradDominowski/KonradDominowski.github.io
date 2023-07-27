@@ -3,7 +3,6 @@ import styles from './Footer.module.css'
 import logo from './../media/images/logo.jpeg'
 import marker_light from './../media/icons/marker_light.png'
 import mail from './../media/icons/mail.png'
-import pin from './../media/icons/pin.png'
 import telephone from './../media/icons/telephone.png'
 
 export default function Footer() {

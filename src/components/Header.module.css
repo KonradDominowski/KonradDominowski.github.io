@@ -52,6 +52,8 @@ nav {
 }
 
 .navLink {
+  all: unset;
+  cursor: pointer;
   color: white;
   display: flex;
   justify-content: center;

@@ -15,19 +15,19 @@ export default function Header() {
 		<div className={ styles.navDiv }>
 			<nav className={ styles.nav }>
 				<div className={ styles.navLogo }>
-					<a href="#">
-						<img className={ styles.navLogoImg } src={ logo }></img>
+					<a href="/">
+						<img className={ styles.navLogoImg } src={ logo } alt='Maverick Language Studio Logo'></img>
 					</a>
 				</div>
 				<div className={ styles.navLinks } onClick={ scrollToSection }>
 					<div className={ styles.navLink }>
-						<a className={ styles.navLink } data-to="courses" href="">Kursy</a>
+						<button className={ styles.navLink } data-to="courses">Kursy</button>
 					</div>
 					<div className={ styles.navLink }>
-						<a className={ styles.navLink } data-to="about" href="">O mnie</a>
+						<button className={ styles.navLink } data-to="about">O mnie</button>
 					</div>
 					<div className={ styles.navLink }>
-						<a className={ styles.navLink } data-to="contact" href="">Kontakt</a>
+						<button className={ styles.navLink } data-to="contact">Kontakt</button>
 					</div>
 				</div>
 			</nav>
