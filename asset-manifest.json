@@ -1,24 +1,22 @@
 {
   "files": {
-    "main.css": "/KonradDominowski.github.io/static/css/main.9b1a129c.css",
-    "main.js": "/KonradDominowski.github.io/static/js/main.f37c30a9.js",
-    "static/media/warsaw1440p.mp4": "/KonradDominowski.github.io/static/media/warsaw1440p.7b6348ea92000ac66171.mp4",
-    "static/media/warsaw1080p.mp4": "/KonradDominowski.github.io/static/media/warsaw1080p.78de37da746f6cf2e58d.mp4",
-    "static/media/warsaw720p.mp4": "/KonradDominowski.github.io/static/media/warsaw720p.1da0a3dc4b5a8928a22e.mp4",
-    "static/media/propo_n1.jpg": "/KonradDominowski.github.io/static/media/propo_n1.0af16b6805ebf8fef856.jpg",
-    "static/media/oneToOne2.jpg": "/KonradDominowski.github.io/static/media/oneToOne2.83e5c04f0788c9df4241.jpg",
-    "static/media/oneToOne.jpg": "/KonradDominowski.github.io/static/media/oneToOne.f4b85ace06dfa6a0a2c3.jpg",
-    "static/media/blindMan.jpeg": "/KonradDominowski.github.io/static/media/blindMan.bb0f4999f922840857b0.jpeg",
-    "static/media/oneToTwo.jpeg": "/KonradDominowski.github.io/static/media/oneToTwo.02a02c753467859db959.jpeg",
-    "static/media/peerToPeer.jpeg": "/KonradDominowski.github.io/static/media/peerToPeer.eb0587279f9def08c0be.jpeg",
-    "static/media/mail.png": "/KonradDominowski.github.io/static/media/mail.2c378c9ee25927123f7d.png",
-    "static/media/pin.png": "/KonradDominowski.github.io/static/media/pin.0e41858db80c699cd8a2.png",
-    "index.html": "/KonradDominowski.github.io/index.html",
-    "main.9b1a129c.css.map": "/KonradDominowski.github.io/static/css/main.9b1a129c.css.map",
-    "main.f37c30a9.js.map": "/KonradDominowski.github.io/static/js/main.f37c30a9.js.map"
+    "main.css": "/static/css/main.9b1a129c.css",
+    "main.js": "/static/js/main.64340f05.js",
+    "static/media/warsaw720p.mp4": "/static/media/warsaw720p.1da0a3dc4b5a8928a22e.mp4",
+    "static/media/propo_n1.jpg": "/static/media/propo_n1.0af16b6805ebf8fef856.jpg",
+    "static/media/oneToOne2.jpg": "/static/media/oneToOne2.83e5c04f0788c9df4241.jpg",
+    "static/media/oneToOne.jpg": "/static/media/oneToOne.f4b85ace06dfa6a0a2c3.jpg",
+    "static/media/blindMan.jpeg": "/static/media/blindMan.bb0f4999f922840857b0.jpeg",
+    "static/media/oneToTwo.jpeg": "/static/media/oneToTwo.02a02c753467859db959.jpeg",
+    "static/media/peerToPeer.jpeg": "/static/media/peerToPeer.eb0587279f9def08c0be.jpeg",
+    "static/media/mail.png": "/static/media/mail.2c378c9ee25927123f7d.png",
+    "static/media/pin.png": "/static/media/pin.0e41858db80c699cd8a2.png",
+    "index.html": "/index.html",
+    "main.9b1a129c.css.map": "/static/css/main.9b1a129c.css.map",
+    "main.64340f05.js.map": "/static/js/main.64340f05.js.map"
   },
   "entrypoints": [
     "static/css/main.9b1a129c.css",
-    "static/js/main.f37c30a9.js"
+    "static/js/main.64340f05.js"
   ]
 }
