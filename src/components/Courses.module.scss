@@ -1,0 +1,64 @@
+.courses {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.coursesHeader {
+  text-align: center;
+}
+
+.coursesDescription {
+  margin: auto;
+}
+
+.coursesPhoto {
+  display: flex;
+  align-items: center;
+  height: 20rem;
+
+  img {
+    height: 80%;
+    object-fit: cover;
+    object-position: center;
+    object-position: bottom;
+    -webkit-mask-image: radial-gradient(rgb(0 0 0 / 1) 40%,
+        rgb(0 0 0 / 0.3) 60%,
+        rgb(0 0 0 / 0) 70%,
+        rgb(0 0 0 / 0));
+    mask-image: radial-gradient(rgb(0 0 0 / 1) 40%,
+        rgb(0 0 0 / 0.3) 60%,
+        rgb(0 0 0 / 0) 70%,
+        rgb(0 0 0 / 0));
+  }
+}
+
+.sessions {
+  width: 90%;
+  margin: auto;
+  gap: 2rem;
+  display: flex;
+  text-align: center;
+}
+
+@media (width < 768px) {
+  .courses {
+    flex-direction: column;
+  }
+
+  .sessions {
+    flex-direction: column;
+  }
+
+  .session {
+    margin-bottom: 2rem;
+    height: 25rem;
+  }
+
+  .aboutUsDesc {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 2rem;
+  }
+}

@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import styles from './Course.module.css'
+import styles from './Course.module.scss'
 
 export default function Course({ course }) {
 	const [showCourseDescription, setShowCourseDescription] = useState(false)

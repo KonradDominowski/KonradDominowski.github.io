@@ -1,4 +1,4 @@
-import styles from './AboutMe.module.css'
+import styles from './AboutMe.module.scss'
 import propo_n1 from './../media/images/propo_n1.jpg'
 
 export default function AboutMe() {
