@@ -1,4 +1,4 @@
-import styles from './Footer.module.css'
+import styles from './Footer.module.scss'
 
 import logo from './../media/images/logo.jpeg'
 import marker_light from './../media/icons/marker_light.png'

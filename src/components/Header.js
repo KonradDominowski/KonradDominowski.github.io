@@ -1,4 +1,4 @@
-import styles from './Header.module.css'
+import styles from './Header.module.scss'
 
 import logo from './../media/images/logo.jpeg'
 
@@ -6,8 +6,10 @@ export default function Header() {
 
 	const scrollToSection = e => {
 		e.preventDefault()
-
 		const scrollTarget = e.target.dataset.to
+
+		if (!scrollTarget) return
+
 		document.querySelector(`#${scrollTarget}`).scrollIntoView({ behavior: 'smooth' })
 	}
 

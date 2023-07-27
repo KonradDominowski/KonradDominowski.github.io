@@ -3,10 +3,10 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-}
 
-.about h1 {
-  text-align: center;
+  h1 {
+    text-align: center;
+  }
 }
 
 .aboutMeDesc {
@@ -16,14 +16,14 @@
   display: flex;
   justify-content: space-between;
   gap: 4em;
-}
 
-.aboutMeDesc img {
-  width: 15rem;
-  height: 15rem;
-  object-fit: cover;
-  border-radius: 50%;
-  box-shadow: 0 0 15px 0px rgb(0, 0, 0, 0.2);
+  img {
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 15px 0px rgb(0, 0, 0, 0.2);
+  }
 }
 
 @media (width < 768px) {

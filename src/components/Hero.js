@@ -1,4 +1,4 @@
-import styles from './Hero.module.css'
+import styles from './Hero.module.scss'
 import warsaw720p from './../media/videos/warsaw720p.mp4'
 import warsaw1080p from './../media/videos/warsaw1080p.mp4'
 

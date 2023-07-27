@@ -1,5 +1,6 @@
+import styles from './Courses.module.scss'
+
 import blindMan from './../media/images/blindMan.jpeg'
-import styles from './Courses.module.css'
 import oneToOne from './../media/images/oneToOne.jpg'
 import oneToOne2 from './../media/images/oneToOne2.jpg'
 import oneToTwo from './../media/images/oneToTwo.jpeg'
